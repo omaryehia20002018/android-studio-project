@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    android:layout_marginTop="70dp"
+    android:layout_gravity="center"
+    >
+
+    <Button
+        android:id="@+id/see"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:background="@drawable/roundbutton"
+        android:text="see restaurants"
+        android:textSize="13dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        >
+
+    </Button>
+
+    <Button
+        android:id="@+id/see1"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/roundbutton"
+        android:text="see order history"
+        android:textSize="12dp"
+        android:layout_gravity="center"
+        >
+
+    </Button>
+    <Button
+        android:id="@+id/see2"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/roundbutton"
+        android:text="see profile"
+        android:textSize="12dp"
+        android:layout_gravity="center"
+        >
+
+    </Button>
+
+</LinearLayout>

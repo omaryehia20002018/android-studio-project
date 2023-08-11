@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginLeft="30dp"
+    android:layout_marginTop="30dp"
+    >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/kisspng_portable_network_graphics_food_fusion_cuisine_logo_restrokhana_your_online_restaurant_partner_br_5cfe4eadd1c225_5829975215601701578592_1_"
+            android:id="@+id/dishimage"
+            >
+
+        </ImageView>
+        <TextView
+            android:id="@+id/meat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="meat:"
+            android:textSize="18dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            >
+
+        </TextView>
+
+
+        <TextView
+            android:id="@+id/money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="4"
+            android:textSize="18dp"
+            android:layout_gravity="center"
+            >
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/le"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LE"
+            android:textSize="18dp"
+            android:layout_gravity="center"
+            >
+
+        </TextView>
+
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        >
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
